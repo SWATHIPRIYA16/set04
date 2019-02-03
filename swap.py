@@ -1,7 +1,6 @@
 x=input()
-y=input()
-temp=x;
-x=y;
+z,y=x.split(' ')
+temp=z;
+z=y;
 y=temp;
-print(x)
-print(y)
+print(z ,y)
